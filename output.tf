@@ -9,3 +9,7 @@ output "private_ec2_1_id" {
 output "rds_endpoint" {
   value = module.rds.rds_endpoint
 }
+
+output "vpc"{
+  value = module.vpc.vpc_id
+}
