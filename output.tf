@@ -10,6 +10,6 @@ output "rds_endpoint" {
   value = module.rds.rds_endpoint
 }
 
-output "vpc"{
-  value = module.vpc.vpc_id
-}
+# output "vpc"{
+#   value = module.vpc.vpc_id
+# }
